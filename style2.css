@@ -1,0 +1,62 @@
+body {
+    font-family: arial;
+    
+  }
+
+.bg-img {
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    
+    background-color: green;
+    height: 100vh;
+    filter: blur(3px); 
+}
+.conteudo {
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+}   
+
+  
+  .menu {
+    background-color: black; 
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  a:hover {
+    color: rgb(52, 52, 235);
+  }
+  
+  .site-title, 
+  .site-subtitle {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
